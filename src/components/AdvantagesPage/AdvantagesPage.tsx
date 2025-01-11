@@ -177,7 +177,7 @@ function AdvantagesPage() {
     ]
 
     return (
-        <div className="AdvantagesPage w-full min-h-[50vh] bg-white px-[250px] flex justify-between items-center">
+        <div className="AdvantagesPage w-full min-h-[50vh] bg-white px-[250px] py-[50px] flex justify-center items-center gap-5 flex-wrap max-[1400px]:px-[100px] max-[1050px]:px-[50px]">
             {advantagesCard.map(card => <AdvantagesCard key={card.id} svg={card.svg} header={card.header} text={card.text} />)}
         </div>
     );

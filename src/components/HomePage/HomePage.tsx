@@ -1,4 +1,3 @@
-import "./HomePage.css";
 import Logo from "../Logo/Logo";
 import BuyNowBtn from "../BuyNowBtn/BuyNowBtn";
 import InfoImgBlock from "../InfoImgBlock/InfoImgBlock";
@@ -23,12 +22,15 @@ function HomePage() {
                 </nav>
                 <BuyNowBtn key="BuyNowBtn" />
             </header>
-            <InfoImgBlock aboveHeader="Sweet fun, full of milk."
-                header="Feel inside cold with our delicious"
-                span="ice-cream."
-                text="Some food has looked so awful that it's looked like something that the dog's brought home, yet after one mouthful I've been left eating my thoughts, my words."
-                img={MainImg}
-                alt="ice-cream" />
+            <main className="w-full min-h-[90vh] flex justify-center items-center">
+                <InfoImgBlock aboveHeader="Sweet fun, full of milk."
+                    header="Feel inside cold with our delicious"
+                    span="ice-cream."
+                    text="Some food has looked so awful that it's looked like something that the dog's brought home, yet after one mouthful I've been left eating my thoughts, my words."
+                    img={MainImg}
+                    alt="ice-cream"
+                    type="default" />
+            </main>
         </div>
     );
 }
