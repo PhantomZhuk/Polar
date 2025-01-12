@@ -3,6 +3,7 @@ import HomePage from "./components/HomePage/HomePage";
 import AdvantagesPage from "./components/AdvantagesPage/AdvantagesPage";
 import IntermediatePage from "./components/IntermediatePage/IntermediatePage";
 import ProductsPage from "./components/ProductsPage/ProductsPage";
+import CommentsPage from "./components/CommentsPage/CommentsPage";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <AdvantagesPage />
       <IntermediatePage />
       <ProductsPage />
+      <CommentsPage />
     </div>
   );
 }
