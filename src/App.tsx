@@ -4,6 +4,7 @@ import IntermediatePage from "./components/IntermediatePage/IntermediatePage";
 import ProductsPage from "./components/ProductsPage/ProductsPage";
 import CommentsPage from "./components/CommentsPage/CommentsPage";
 import QuestionPage from "./components/QuestionPage/QuestionPage";
+import OrderFoodPage from "./components/OrderFoodPage/OrderFoodPage";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <IntermediatePage />
       <ProductsPage />
       <CommentsPage />
+      <OrderFoodPage />
       <QuestionPage />
     </div>
   );
