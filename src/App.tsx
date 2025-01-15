@@ -5,6 +5,7 @@ import ProductsPage from "./components/ProductsPage/ProductsPage";
 import CommentsPage from "./components/CommentsPage/CommentsPage";
 import QuestionPage from "./components/QuestionPage/QuestionPage";
 import OrderFoodPage from "./components/OrderFoodPage/OrderFoodPage";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <CommentsPage />
       <OrderFoodPage />
       <QuestionPage />
+      <Footer />
     </div>
   );
 }
